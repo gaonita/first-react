@@ -1,0 +1,43 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+
+/** Page **/
+
+.page-wrapper {
+    @apply min-h-screen;
+}
+.page-content {
+    @apply flex flex-col w-full fixed pin-l pin-y;
+}
+
+/** Header **/
+.header {
+    @apply flex items-center justify-between flex-wrap bg-blue-darkest p-6;
+}
+
+.header-title {
+    @apply text-white text-3xl;
+}
+
+/** Footer **/
+
+.footer-wrapper {
+    @apply border-t px-8 py-4;
+}
+
+.footer-content {
+    @apply flex justify-center text-grey;
+}
+
+/** Content section **/
+
+.content-wrapper {
+    @apply px-4 pt-4 flex-1 overflow-y-scroll;
+}
+
+.content-text {
+    @apply text-grey-dark;
+}
