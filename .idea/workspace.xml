@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d2ab85-2cde-4d80-b4cc-c6e0cc02c241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/components/PostList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/src/apis/jsonPlaceholder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/components/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/components/PostList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +34,7 @@
           <entry key="gitignore" value="2" />
           <entry key="html" value="14" />
           <entry key="ico" value="1" />
-          <entry key="js" value="48" />
+          <entry key="js" value="50" />
           <entry key="json" value="11" />
           <entry key="jsx" value="9" />
           <entry key="md" value="1" />
@@ -47,7 +47,7 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="11" />
           <entry key="JSX Harmony" value="9" />
-          <entry key="JavaScript" value="48" />
+          <entry key="JavaScript" value="50" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -61,7 +61,7 @@
           <entry key="css" value="444" />
           <entry key="gitignore" value="39" />
           <entry key="html" value="56" />
-          <entry key="js" value="12225" />
+          <entry key="js" value="12647" />
           <entry key="json" value="34" />
           <entry key="jsx" value="1315" />
           <entry key="txt" value="19" />
@@ -73,7 +73,7 @@
           <entry key="HTML" value="56" />
           <entry key="JSON" value="34" />
           <entry key="JSX Harmony" value="1315" />
-          <entry key="JavaScript" value="12225" />
+          <entry key="JavaScript" value="12647" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="135">
+              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -96,8 +96,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/src/components/PostList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/src/actions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/src/apis/jsonPlaceholder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -111,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -139,8 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-portfolio/src/Project.jsx" />
-        <option value="$PROJECT_DIR$/my-portfolio/src/Header.jsx" />
         <option value="$PROJECT_DIR$/my-portfolio/src/data/projects.json" />
         <option value="$PROJECT_DIR$/my-portfolio/public/data/projects.json" />
         <option value="$PROJECT_DIR$/my-portfolio/src/ProjectCard.jsx" />
@@ -186,10 +205,12 @@
         <option value="$PROJECT_DIR$/songs/src/components/App.js" />
         <option value="$PROJECT_DIR$/songs/src/components/SongDetail.js" />
         <option value="$PROJECT_DIR$/blog/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/blog/src/index.js" />
-        <option value="$PROJECT_DIR$/blog/src/components/PostList.js" />
         <option value="$PROJECT_DIR$/blog/src/components/App.js" />
         <option value="$PROJECT_DIR$/blog/public/index.html" />
+        <option value="$PROJECT_DIR$/blog/src/components/PostList.js" />
+        <option value="$PROJECT_DIR$/blog/src/apis/jsonPlaceholder.js" />
+        <option value="$PROJECT_DIR$/blog/src/index.js" />
+        <option value="$PROJECT_DIR$/blog/src/actions/index.js" />
       </list>
     </option>
   </component>
@@ -222,9 +243,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="818" />
+    <option name="x" value="1011" />
     <option name="y" value="23" />
-    <option name="width" value="862" />
+    <option name="width" value="669" />
     <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -312,7 +333,7 @@
       <updated>1550923825981</updated>
       <workItem from="1550923827086" duration="12590000" />
       <workItem from="1558787252144" duration="315000" />
-      <workItem from="1570564231894" duration="50486000" />
+      <workItem from="1570564231894" duration="52760000" />
     </task>
     <task id="LOCAL-00001" summary="first react project">
       <created>1551034008395</created>
@@ -332,12 +353,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63391000" />
+    <option name="totallyTimeSpent" value="65665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="818" y="23" width="862" height="972" extended-state="0" />
+    <frame x="1011" y="23" width="669" height="972" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29964328" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2978395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -351,7 +372,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.3284091" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" weight="0.27386364" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" visible="true" weight="0.27386364" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,16 +409,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="first react project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-portfolio/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-portfolio/postcss.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-portfolio/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2819" />
@@ -762,14 +773,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/src/components/PostList.js">
+    <entry file="file://$PROJECT_DIR$/blog/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/src/index.js">
+    <entry file="file://$PROJECT_DIR$/blog/src/apis/jsonPlaceholder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/components/PostList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -779,13 +800,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/src/components/App.js">
+    <entry file="file://$PROJECT_DIR$/blog/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="135">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
