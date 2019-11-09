@@ -136,7 +136,7 @@ module.exports = {
   | Colors                                  https://tailwindcss.com/docs/colors
   |-----------------------------------------------------------------------------
   |
-  | The color palette defined above is also assigned to the "colors" key of
+  | The color palette defined above is also assigned to the "colors" keycode of
   | your Tailwind config. This makes it easy to access them in your CSS
   | using Tailwind's config helper. For example:
   |
