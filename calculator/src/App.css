@@ -1,0 +1,37 @@
+#display-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 50vw;
+    border: 1px solid rebeccapurple;
+    background-color: #3d4852;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+
+.operator-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.operators{
+    height: 30px;
+    width: 30px;
+}
+
+#equals{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.number{
+    width: 30px;
+    height: 30px;
+}
