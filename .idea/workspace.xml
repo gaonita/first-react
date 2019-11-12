@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d2ab85-2cde-4d80-b4cc-c6e0cc02c241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,7 +60,7 @@
           <entry key="css" value="1542" />
           <entry key="gitignore" value="39" />
           <entry key="html" value="98" />
-          <entry key="js" value="22896" />
+          <entry key="js" value="23622" />
           <entry key="json" value="34" />
           <entry key="jsx" value="1315" />
           <entry key="txt" value="19" />
@@ -75,7 +72,7 @@
           <entry key="HTML" value="103" />
           <entry key="JSON" value="34" />
           <entry key="JSX Harmony" value="1315" />
-          <entry key="JavaScript" value="22891" />
+          <entry key="JavaScript" value="23617" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+            <state relative-caret-position="241">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -341,7 +338,7 @@
       <workItem from="1572600060071" duration="96000" />
       <workItem from="1572601816350" duration="3000" />
       <workItem from="1572613674495" duration="1373000" />
-      <workItem from="1572814281002" duration="62042000" />
+      <workItem from="1572814281002" duration="64718000" />
     </task>
     <task id="LOCAL-00001" summary="first react project">
       <created>1551034008395</created>
@@ -361,7 +358,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133969000" />
+    <option name="totallyTimeSpent" value="136645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="713" y="23" width="967" height="972" extended-state="0" />
@@ -799,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+        <state relative-caret-position="241">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
