@@ -1,37 +1,54 @@
-#display-section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+.formula{
     height: 40px;
-    width: 50vw;
-    border: 1px solid rebeccapurple;
-    background-color: #3d4852;
-    color: yellow;
+    width: 500px;
     font-size: 20px;
-    text-align: center;
-    font-family: Helvetica;
+    background-color: #3d4852;
+    color: whitesmoke;
 }
 
-
+.display{
+    height: 50px;
+    width: 500px;
+    text-align: right;
+    font-size: 35px;
+}
 .operator-section{
+    width: 500px;
+    height: 70px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin: 10px;
 }
 
 .operators{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+
 }
 
 #equals{
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+.number-section{
+    width: 500px;
 }
 
 .number{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#clear{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+
+
 }

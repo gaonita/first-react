@@ -145,15 +145,15 @@ class Keypad extends React.Component {
     render() {
         return (
             <div>
-                <button id="clear" onClick={this.props.initialize} value='AC'>AC</button>
-
 
                 <div className="operator-section">
+                    <button id="clear" onClick={this.props.initialize} value='AC'>AC</button>
                     <button className="operators" id="decimal" onClick={this.props.decimal} value='.'>.</button>
                     <button className="operators" id="add" onClick={this.props.operators} value='+'>+</button>
                     <button className="operators" id="subtract" onClick={this.props.operators} value='-'>-</button>
                     <button className="operators" id="multiply" onClick={this.props.operators} value='x'>x</button>
                     <button className="operators" id="divide" onClick={this.props.operators} value='/'>/</button>
+                    <button id="equals" onClick={this.props.evaluate} value='='> =</button>
 
                 </div>
 
@@ -170,7 +170,6 @@ class Keypad extends React.Component {
                     <button className="number" id="nine" onClick={this.props.numbers} value='9'> 9</button>
                 </div>
 
-                <button id="equals" onClick={this.props.evaluate} value='='> =</button>
 
             </div>
         )
@@ -179,14 +178,14 @@ class Keypad extends React.Component {
 
 class Formula extends React.Component {
     render() {
-        return <div>{this.props.formula}</div>
+        return <div className="formula">{this.props.formula}</div>
     }
 }
 
 class Result extends React.Component {
     render() {
         return (
-            <div>
+            <div className="display">
                 {this.props.currentValue}
             </div>
         );
