@@ -1,0 +1,54 @@
+{
+  "streams": [
+    {
+      "title": "I created this stream",
+      "description": "This was made by me",
+      "userId": {
+        "isSignedIn": true,
+        "userId": "112366092389451826464"
+      },
+      "id": 6
+    },
+    {
+      "title": "what is what",
+      "description": "merging objects?",
+      "userId": {
+        "isSignedIn": true,
+        "userId": "112366092389451826464"
+      },
+      "id": 7
+    },
+    {
+      "title": "another one",
+      "description": "a",
+      "userId": {
+        "isSignedIn": true,
+        "userId": "112366092389451826464"
+      },
+      "id": 8
+    },
+    {
+      "title": "This should work",
+      "description": "REFACTORING",
+      "id": 9
+    },
+    {
+      "title": "PATCH",
+      "description": "This change was made by a PATCH request",
+      "userId": "112366092389451826464",
+      "id": 10
+    },
+    {
+      "title": "programmatic navigation",
+      "description": "not this one at form page",
+      "userId": "112366092389451826464",
+      "id": 11
+    },
+    {
+      "title": "Refactor",
+      "description": "Reuse code!",
+      "userId": "112366092389451826464",
+      "id": 12
+    }
+  ]
+}
