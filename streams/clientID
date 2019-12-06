@@ -11,3 +11,17 @@ To fix, our history.js file should instead look like this:
 
 import { createBrowserHistory } from 'history';
 export default createBrowserHistory();
+
+
+
+RTMP NodeMediaServer is not a constructor error fix
+In the next lecture we will install the Node Media Server package and create our RTMP server. Our index.js needs a slight modification to the import for v.2.1.0
+
+https://github.com/illuspas/Node-Media-Server#npm-version-recommended
+
+Instead of:
+
+const { NodeMediaServer } = require('node-media-server');
+we need to change the import to this:
+
+const NodeMediaServer = require('node-media-server');
