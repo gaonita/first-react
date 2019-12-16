@@ -2,61 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d2ab85-2cde-4d80-b4cc-c6e0cc02c241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hooks-simple/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/src/components/ResourceList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/src/components/UserList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/src/components/useResources.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks-simple/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pomodoro/src/LengthControl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seasons/src/useLocation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/components/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/components/Field.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/components/LanguageSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/components/UserCreate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/contexts/ColorContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/contexts/LanguageContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translate/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/axios/lib/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/checkPropTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/factoryWithTypeCheckers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prop-types/prop-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/dist/react-redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/dist/react-redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/dist/react-redux.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/dist/react-redux.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/components/connectAdvanced.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/es/components/connectAdvanced.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useDispatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useDispatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useReduxContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useReduxContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useSelector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/components/connectAdvanced.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/components/connectAdvanced.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useDispatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useDispatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useReduxContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useReduxContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useSelector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/components/connectAdvanced.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/src/components/connectAdvanced.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useDispatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useDispatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useReduxContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useReduxContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useSelector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regenerator-runtime/runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomodoro/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomodoro/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pomodoro/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pomodoro/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seasons/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/seasons/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pomodoro/src/LengthControl.js" beforeDir="false" afterPath="$PROJECT_DIR$/pomodoro/src/LengthControl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/src/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/src/components/Quote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/src/components/Share.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/src/components/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/src/data/quotes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomquotemachine/src/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,12 +35,12 @@
     <session id="2071856059">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="12" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="17" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,7 +50,7 @@
           <entry key="gitignore" value="6" />
           <entry key="html" value="34" />
           <entry key="ico" value="3" />
-          <entry key="js" value="269" />
+          <entry key="js" value="278" />
           <entry key="json" value="30" />
           <entry key="jsx" value="12" />
           <entry key="md" value="1" />
@@ -102,7 +66,7 @@
           <entry key="Image" value="7" />
           <entry key="JSON" value="30" />
           <entry key="JSX Harmony" value="12" />
-          <entry key="JavaScript" value="269" />
+          <entry key="JavaScript" value="278" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="SVG" value="1" />
         </counts>
@@ -118,7 +82,7 @@
           <entry key="css" value="1778" />
           <entry key="gitignore" value="39" />
           <entry key="html" value="578" />
-          <entry key="js" value="44330" />
+          <entry key="js" value="50153" />
           <entry key="json" value="128" />
           <entry key="jsx" value="1315" />
           <entry key="txt" value="20" />
@@ -130,7 +94,7 @@
           <entry key="HTML" value="583" />
           <entry key="JSON" value="128" />
           <entry key="JSX Harmony" value="1315" />
-          <entry key="JavaScript" value="44325" />
+          <entry key="JavaScript" value="50148" />
           <entry key="PLAIN_TEXT" value="66" />
         </counts>
       </usages-collector>
@@ -138,23 +102,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pomodoro/src/App.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pomodoro/src/LengthControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pomodoro/src/LengthControl.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pomodoro/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="207">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,7 +210,6 @@
     <handled-path value="$PROJECT_DIR$/pics/node_modules" />
     <handled-path value="$PROJECT_DIR$/pomodoro/node_modules" />
     <handled-path value="$PROJECT_DIR$/portfolioExample/node_modules" />
-    <handled-path value="$PROJECT_DIR$/randomquotemachine/node_modules" />
     <handled-path value="$PROJECT_DIR$/seasons/node_modules" />
     <handled-path value="$PROJECT_DIR$/songs/node_modules" />
     <handled-path value="$PROJECT_DIR$/streams/api/node_modules" />
@@ -295,7 +258,6 @@
       <path value="$PROJECT_DIR$/pics/package.json" />
       <path value="$PROJECT_DIR$/pomodoro/package.json" />
       <path value="$PROJECT_DIR$/portfolioExample/package.json" />
-      <path value="$PROJECT_DIR$/randomquotemachine/package.json" />
       <path value="$PROJECT_DIR$/seasons/package.json" />
       <path value="$PROJECT_DIR$/songs/package.json" />
       <path value="$PROJECT_DIR$/streams/api/package.json" />
@@ -306,58 +268,44 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="840" />
+    <option name="x" value="2288" />
     <option name="y" value="23" />
-    <option name="width" value="840" />
-    <option name="height" value="973" />
+    <option name="width" value="1271" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="reactday" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="reactday" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pics" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="reactday" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pomodoro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="reactday" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pomodoro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="reactday" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="pomodoro" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="reactday" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactday" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactday" type="462c0819:PsiDirectoryNode" />
+              <item name="pomodoro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactday" type="462c0819:PsiDirectoryNode" />
+              <item name="pomodoro" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactday" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactday" type="462c0819:PsiDirectoryNode" />
+              <item name="pomodoro" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="accurate-interval" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,6 +315,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -432,7 +381,12 @@
       <workItem from="1574414494565" duration="21591000" />
       <workItem from="1574937166231" duration="2567000" />
       <workItem from="1575277726397" duration="47419000" />
-      <workItem from="1575883243490" duration="20580000" />
+      <workItem from="1575883243490" duration="23570000" />
+      <workItem from="1576009546841" duration="4024000" />
+      <workItem from="1576057232797" duration="21000" />
+      <workItem from="1576141913971" duration="94000" />
+      <workItem from="1576142049543" duration="2547000" />
+      <workItem from="1576415882697" duration="18886000" />
     </task>
     <task id="LOCAL-00001" summary="first react project">
       <created>1551034008395</created>
@@ -452,12 +406,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254902000" />
+    <option name="totallyTimeSpent" value="283464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="23" width="840" height="973" extended-state="0" />
+    <frame x="2288" y="23" width="1271" height="1032" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15262516" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17356828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -471,13 +425,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.27386364" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.2951192" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15262516" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20715037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -491,7 +445,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.27386364" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.2951192" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.28792912" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -508,16 +462,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="first react project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/streams/client/src/components/streams/StreamList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/streams/rtmpserver/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -536,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,9 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,9 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,9 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,9 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -593,9 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,9 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translate/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/translate/public/robots.txt" />
     <entry file="file://$PROJECT_DIR$/translate/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -658,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,9 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,28 +690,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/songs/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/translate/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,50 +707,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/songs/src/components/SongDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/songs/src/components/SongList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/songs/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/songs/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pomodoro/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pomodoro/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -885,17 +746,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pomodoro/node_modules/accurate-interval/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pomodoro/src/LengthControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pomodoro/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+        <state relative-caret-position="207">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

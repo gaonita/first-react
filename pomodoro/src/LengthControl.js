@@ -4,27 +4,16 @@ class LengthControl extends React.Component {
 
     render() {
         return (
-            <div className="ui segment">
-                <div className="ui header" id={this.props.titleId}>
-                    {this.props.title}
-                </div>
-                <div className="ui segment" id={this.props.lengthId}>
-                    {this.props.length}
-                </div>
-
-                <div className="ui ">
-                    <button className="ui icon button" id={this.props.plusId}
-                            onClick={this.props.incrementBtn}>
-                        <i className="plus icon"></i>
-                    </button>
-                    <button className="ui icon button" id={this.props.minusId}
-                            onClick={this.props.decrementBtn}>
-                        <i className="minus icon"></i>
-                    </button>
-
-                </div>
-
-            </div>
+           <div>
+               <div>
+                   <h4>{this.props.name}: {this.props.sessionLength}</h4>
+               </div>
+               <div>
+                   <button id={this.props.plus} onClick={this.props.increment}> + </button>
+                   <button id={this.props.minus} onClick={this.props.decrement}> - </button>
+               </div>
+               <div></div>
+           </div>
         )
     }
 }

@@ -1,85 +1,122 @@
 import React from 'react'
-import accurateInterval from 'accurate-interval';
 import LengthControl from './LengthControl';
 
 class App extends React.Component {
     state = {
-        break: 2,
-        session: 3,
-        timer: 1500
+        timer: 1500,
+        count: 'start',
+        workLength: 1500,
+        breakLength: 300,
+        sessionId: 'work'
     };
 
-    onClick = () => {
-        const counting = accurateInterval(() => {
+    handle;
+
+
+    decrementTime = () => {
+        if (this.state.timer > 0) {
             this.setState({
-                session: this.state.session - 1
+                timer: this.state.timer - 1
             });
-        }, 1000);
-        setTimeout(() => {
-            (counting.clear())
-        }, this.state.session * 1000)
+            if (this.state.timer === 0) {
+                this.state.sessionId === 'work' ?
+                    this.setState({
+                        sessionId: 'break',
+                        timer: this.state.breakLength
+                    }) :
+                    this.setState({
+                        sessionId: 'work',
+                        timer: this.state.workLength
+                    })
+            }
+        }
     };
 
-    incrementBtn = () => {
+    countDown = () => {
+        if (this.state.count === 'start') {
+            this.handle = setInterval(this.decrementTime, 1000);
+            this.setState({count: 'stop'});
+        } else {
+            clearInterval(this.handle);
+            this.setState({count: 'start'})
+        }
+    };
+
+    increment = () => {
         this.setState({
-            session: this.state.session + 1
+            timer: this.state.timer + 60,
+            workLength: this.state.workLength + 60
         })
     };
-    decrementBtn = () => {
+    decrement = () => {
         this.setState({
-            session: this.state.session - 1
+            timer: this.state.timer - 60,
+            workLength: this.state.workLength - 60
         })
     };
-    clockify() {
-        let minutes = Math.floor(this.state.timer / 60);
-        let seconds = this.state.timer - minutes * 60;
-        seconds = seconds < 10 ? '0' + seconds : seconds;
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        return minutes + ':' + seconds;
-    }
+
+    brkIncrement = () => {
+        this.setState({
+            breakLength: this.state.breakLength + 60
+        })
+    };
+    brkDecrement = () => {
+        this.setState({
+            breakLength: this.state.breakLength - 60
+        })
+    };
+
+    reset = () => {
+        this.setState({
+            timer: 1500,
+            count: 'start',
+            workLength: 1500,
+            breakLength: 300,
+            sessionId: 'work'
+        });
+        clearInterval(this.handle);
+    };
+
+    clockView = (timer) => {
+        let minute = Math.floor(timer / 60);
+        let second = Math.floor(timer - minute * 60);
+            return (minute < 10? '0'+minute:minute)
+                +':'+ (second < 10 ? '0'+second : second)
+    };
 
     render() {
         return (
-            <div className="ui container">
-                <div className="ui placeholder segment">
-                    <div className="ui two column center aligned grid">
-                        <div className="ui vertical divider"></div>
-                        <div className="column">
+            <div className="ui container items-center">
+                <h1>Pomodoro Clock</h1>
+                <LengthControl
+                               name={'Working Session Length'}
+                               sessionLength={this.state.workLength/60}
+                               increment={this.state.timer < 1500 ? this.increment : null}
+                               decrement={this.state.timer > 0 ? this.decrement : null}
 
-                        <LengthControl
-                                titleId="break-label"
-                                title="Break length"
-                                lengthId="break-length"
-                                length={this.state.break}
-                                minusId="break-decrement"
-                                plusId="break-increment"
-                            />
-                        </div>
-                        <div className="column">
+                />
 
-                        <LengthControl
-                            titleId="session-label"
-                            title="Session length"
-                            lengthId="session-length"
-                            length={this.state.session}
-                            minusId="session-decrement"
-                            plusId="session-increment"
-                            incrementBtn={this.incrementBtn}
-                            decrementBtn={this.decrementBtn}
-                        />
-                        </div>
-                    </div>
+                <LengthControl
+                               name={'Break Session Length'}
+                               sessionLength={this.state.breakLength/60}
+                               increment={this.state.timer < 300 ? this.brkIncrement : null}
+                               decrement={this.state.timer > 0 ? this.brkDecrement : null}
+
+                />
+
+
+                <div className="ui segment">
+                    <h1>{this.clockView(this.state.timer)}</h1>
+                    <button className="ui button small primary"
+                            onClick={this.countDown}>{this.state.count}</button>
                 </div>
-
-                <button className="ui button primary" onClick={this.onClick}>Start</button>
-
-                <div>{this.clockify()}</div>
-
+                <button className="ui button  secondary"
+                        onClick={this.reset}>Reset
+                </button>
             </div>
-
-
         )
     }
-};
+}
+;
 
 export default App;
